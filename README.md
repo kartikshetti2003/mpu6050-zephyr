@@ -1,7 +1,7 @@
 # mpu6050-zephyr
 MPU6050 I2C Interface using Zephyr RTOS
 
-MPU6050-Zephyr is an embedded software project for interfacing the MPU6050 6-axis IMU sensor with an nRF52840 DK (or any Zephyr-compatible board) using I2C protocol in Zephyr RTOS. It reads accelerometer and gyroscope data and logs them with Zephyr’s built-in logging system.
+MPU6050-Zephyr is an embedded software project for interfacing the MPU6050 6-axis IMU sensor with an nRF52840 DK using I2C protocol in Zephyr RTOS. It reads accelerometer and gyroscope data and logs them with Zephyr’s built-in logging system.
 
 Features
 1. Reads accelerometer and gyroscope data
@@ -18,10 +18,10 @@ Table of Contents
 
 1. Hardware Requirements
    A Zephyr-supported development board like nRF52840 DK is required. The MPU6050 sensor module is used for measuring acceleration and rotation. To establish an I2C 
-   connection, connect the SDA and SCL lines to the respective pins on the development board. Power the MPU6050 using a 3.3V or 5V supply.
+   connect the SDA and SCL lines to the respective pins on the development board. Power the MPU6050 using a VDD supply.
 
 2. Pin Connections
-   Connect the VCC pin of the MPU6050 to the 3.3V or 5V pin on the development board. Connect the GND pin to the ground. The SDA and SCL pins should be connected to the     
+   Connect the VCC pin of the MPU6050 to the VDD pin on the development board. Connect the GND pin to the ground. The SDA and SCL pins should be connected to the     
    appropriate I2C pins on the development board, such as P0.26 for SDA and P0.27 for SCL on the nRF52840 DK.
 
 3. Project Structure
