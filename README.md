@@ -44,5 +44,7 @@ Table of Contents
       cd mpu6050-zephyr
      
    3. Build the project using West build:
+  4. Output
+     ![Output](https://github.com/user-attachments/assets/22a92385-a6ac-4a9a-8751-2b3a2a843495)
 
    
