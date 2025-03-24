@@ -17,8 +17,8 @@ Table of Contents
 5. Data output example
 
 1. Hardware Requirements
-   A Zephyr-supported development board like nRF52840 DK is required. The MPU6050 sensor module is used for measuring acceleration and rotation. To establish an I2C connection, 
-   connect the SDA and SCL lines to the respective pins on the development board. Power the MPU6050 using a 3.3V or 5V supply.
+   A Zephyr-supported development board like nRF52840 DK is required. The MPU6050 sensor module is used for measuring acceleration and rotation. To establish an I2C 
+   connection, connect the SDA and SCL lines to the respective pins on the development board. Power the MPU6050 using a 3.3V or 5V supply.
 
 2. Pin Connections
    Connect the VCC pin of the MPU6050 to the 3.3V or 5V pin on the development board. Connect the GND pin to the ground. The SDA and SCL pins should be connected to the     
@@ -36,12 +36,11 @@ Table of Contents
    7. Board-specific configurations
 
 4. Installation and Setup
-   ## Installation and Setup
-
-i. Install the required software, including Zephyr SDK and nRF Connect SDK.  
-
-ii. Clone the repository using the following command:  
-   ```sh
-   git clone https://github.com/yourusername/mpu6050-zephyr.git
+   1. Install the required software, including Zephyr SDK and nRF Connect SDK.  
+   2. Clone the repository using the following command:  
+      ```sh
+      git clone https://github.com/yourusername/mpu6050-zephyr.git
+      ```sh
+      cd mpu6050-zephyr
 
    
