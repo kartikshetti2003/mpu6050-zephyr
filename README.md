@@ -36,8 +36,12 @@ Table of Contents
    7. Board-specific configurations
 
 4. Installation and Setup
-   1. Install the required software, including Zephyr SDK and nRF Connect SDK.
-   2. Clone the repository using the following command
-   3. `shell` git clone https://github.com/yourusername/mpu6050-zephyr.git
-   ``` cd mpu6050-zephyr
+   ## Installation and Setup
+
+i. Install the required software, including Zephyr SDK and nRF Connect SDK.  
+
+ii. Clone the repository using the following command:  
+   ```sh
+   git clone https://github.com/yourusername/mpu6050-zephyr.git
+
    
