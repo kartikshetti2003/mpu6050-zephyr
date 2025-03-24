@@ -38,7 +38,6 @@ Table of Contents
 4. Installation and Setup
    1. Install the required software, including Zephyr SDK and nRF Connect SDK.
    2. Clone the repository using the following command
-   3. ```sh
-   git clone https://github.com/yourusername/mpu6050-zephyr.git
+   3. ```sh git clone https://github.com/yourusername/mpu6050-zephyr.git
    cd mpu6050-zephyr
    
