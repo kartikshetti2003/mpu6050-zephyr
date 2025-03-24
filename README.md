@@ -27,17 +27,17 @@ Table of Contents
 3. Project Structure
 
    mpu6050-zephyr
-   1. # Main application (I2C communication)
-   2. # MPU6050 driver implementation
-   3. # MPU6050 driver header file
-   4. # Zephyr build configuration
-   5. # Zephyr project settings
-   6. # Project documentation
-   7. # Board-specific configurations
+   1. Main application (I2C communication)
+   2. MPU6050 driver implementation
+   3. MPU6050 driver header file
+   4. Zephyr build configuration
+   5. Zephyr project settings
+   6. Project documentation
+   7. Board-specific configurations
 
 4. Installation and Setup
    1. Install the required software, including Zephyr SDK and nRF Connect SDK.
    2. Clone the repository using the following command
-   3. ```sh git clone https://github.com/yourusername/mpu6050-zephyr.git
-   cd mpu6050-zephyr
+   3. ```git clone https://github.com/yourusername/mpu6050-zephyr.git
+   ``` cd mpu6050-zephyr
    
