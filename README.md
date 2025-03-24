@@ -40,7 +40,9 @@ Table of Contents
    2. Clone the repository using the following command:  
       ```sh
       git clone https://github.com/yourusername/mpu6050-zephyr.git
-   ```sh
+     ```sh
       cd mpu6050-zephyr
+     
+   3. Build the project using West build:
 
    
