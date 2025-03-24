@@ -43,8 +43,19 @@ Table of Contents
      ```sh
       cd mpu6050-zephyr
      
-   3. Build the project using West build:
-  4. Output
-     ![Output](https://github.com/user-attachments/assets/22a92385-a6ac-4a9a-8751-2b3a2a843495)
+  3. Build the project using West build:
+     ```sh
+     west build -b nrf52840dk_nrf52840
+     
+   4. Flash the firmware:
+      ```sh
+      west flash
+      
+   5. Open the serial monitor:
+      ```sh
+      west debug
+      
+   6. Output
+     (https://github.com/user-attachments/assets/22a92385-a6ac-4a9a-8751-2b3a2a843495)
 
    
